@@ -4,14 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41888a58-ec49-4bae-9259-3f2362c0cb0a" name="Changes" comment="" />
+    <list default="true" id="41888a58-ec49-4bae-9259-3f2362c0cb0a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-hibernate-01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-hibernate-01/src/main/java/tech/tuanzi/pojo/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-hibernate-01/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-hibernate-01/src/test/java/tech/tuanzi/test/HibernateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -23,7 +52,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2KBLUEHvmvGLcze5irPlsaXijIB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,9 +64,101 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
     "settings.editor.selected.configurable": "shared-indexes"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.HibernateTest.testU2">
+    <configuration name="HibernateTest.testC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-hibernate-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tech.tuanzi.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tech.tuanzi.test" />
+      <option name="MAIN_CLASS_NAME" value="tech.tuanzi.test.HibernateTest" />
+      <option name="METHOD_NAME" value="testC" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateTest.testR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-hibernate-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tech.tuanzi.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tech.tuanzi.test" />
+      <option name="MAIN_CLASS_NAME" value="tech.tuanzi.test.HibernateTest" />
+      <option name="METHOD_NAME" value="testR" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateTest.testRLazy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-hibernate-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tech.tuanzi.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tech.tuanzi.test" />
+      <option name="MAIN_CLASS_NAME" value="tech.tuanzi.test.HibernateTest" />
+      <option name="METHOD_NAME" value="testRLazy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateTest.testU" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-hibernate-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tech.tuanzi.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tech.tuanzi.test" />
+      <option name="MAIN_CLASS_NAME" value="tech.tuanzi.test.HibernateTest" />
+      <option name="METHOD_NAME" value="testU" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateTest.testU2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-hibernate-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tech.tuanzi.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tech.tuanzi.test" />
+      <option name="MAIN_CLASS_NAME" value="tech.tuanzi.test.HibernateTest" />
+      <option name="METHOD_NAME" value="testU2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HibernateTest.testU2" />
+        <item itemvalue="JUnit.HibernateTest.testU" />
+        <item itemvalue="JUnit.HibernateTest.testRLazy" />
+        <item itemvalue="JUnit.HibernateTest.testR" />
+        <item itemvalue="JUnit.HibernateTest.testC" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,9 +167,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673443043028</updated>
-      <workItem from="1673443044885" duration="2000" />
+      <workItem from="1673443044885" duration="5636000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

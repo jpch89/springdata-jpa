@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- 配置数据库连接信息 -->
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/springdata_jpa?characterEncoding=UTF-8</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password"></property>
+
+        <!-- 在日志中记录 SQL 语句，默认 false -->
+        <property name="show_sql">true</property>
+        <!-- 格式化 SQL 语句，默认 false，所有语句在一行打印 -->
+        <property name="format_sql">true</property>
+        <!--
+        表生成策略：
+            默认为 none，不自动生成表
+            update，如果没有表会自动创建，如果已存在会检查并自动更新
+            create，每次运行都自动创建表
+        -->
+        <property name="hbm2ddl.auto">update</property>
+        <!-- 配置方言：选择数据库类型 -->
+        <property name="dialect">org.hibernate.dialect.MySQL57InnoDBDialect</property>
+
+        <!-- 指定需要进行 ORM 映射的 pojo 类 -->
+        <mapping class="tech.tuanzi.pojo.Customer"></mapping>
+    </session-factory>
+</hibernate-configuration>
