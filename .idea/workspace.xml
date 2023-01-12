@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41888a58-ec49-4bae-9259-3f2362c0cb0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-hibernate-01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-hibernate-01/src/main/java/tech/tuanzi/pojo/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-hibernate-01/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-hibernate-01/src/test/java/tech/tuanzi/test/HibernateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-hibernate-01/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-hibernate-01/src/test/java/tech/tuanzi/test/HibernateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-hibernate-01/src/test/java/tech/tuanzi/test/HibernateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,16 +25,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
-    <option name="myId2FirstActivated">
-      <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
-      </map>
-    </option>
-    <option name="myId2Visible">
-      <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
-      </map>
-    </option>
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -45,9 +33,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\dev\tools\apache-maven-3.6.1\repository" />
+        <option name="localRepository" value="C:\dev\tools\apache-maven-3.6.1\repository" />
         <option name="mavenHome" value="$PROJECT_DIR$/../../../tools/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="D:\dev\tools\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="userSettingsFile" value="C:\dev\tools\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -65,11 +53,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "settings.editor.selected.configurable": "shared-indexes"
+    "last_opened_file_path": "C:/dev/learn/blbl/springdata-jpa",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.HibernateTest.testU2">
-    <configuration name="HibernateTest.testC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HibernateTest.testRHql3">
+    <configuration name="HibernateTest.testD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-hibernate-01" />
       <extension name="coverage">
         <pattern>
@@ -79,13 +69,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="tech.tuanzi.test" />
       <option name="MAIN_CLASS_NAME" value="tech.tuanzi.test.HibernateTest" />
-      <option name="METHOD_NAME" value="testC" />
+      <option name="METHOD_NAME" value="testD" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HibernateTest.testR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HibernateTest.testRHql" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-hibernate-01" />
       <extension name="coverage">
         <pattern>
@@ -95,13 +85,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="tech.tuanzi.test" />
       <option name="MAIN_CLASS_NAME" value="tech.tuanzi.test.HibernateTest" />
-      <option name="METHOD_NAME" value="testR" />
+      <option name="METHOD_NAME" value="testRHql" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HibernateTest.testRLazy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HibernateTest.testRHql1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-hibernate-01" />
       <extension name="coverage">
         <pattern>
@@ -111,13 +101,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="tech.tuanzi.test" />
       <option name="MAIN_CLASS_NAME" value="tech.tuanzi.test.HibernateTest" />
-      <option name="METHOD_NAME" value="testRLazy" />
+      <option name="METHOD_NAME" value="testRHql1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HibernateTest.testU" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HibernateTest.testRHql2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-hibernate-01" />
       <extension name="coverage">
         <pattern>
@@ -127,13 +117,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="tech.tuanzi.test" />
       <option name="MAIN_CLASS_NAME" value="tech.tuanzi.test.HibernateTest" />
-      <option name="METHOD_NAME" value="testU" />
+      <option name="METHOD_NAME" value="testRHql2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HibernateTest.testU2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HibernateTest.testRHql3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-hibernate-01" />
       <extension name="coverage">
         <pattern>
@@ -143,7 +133,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tech.tuanzi.test" />
       <option name="MAIN_CLASS_NAME" value="tech.tuanzi.test.HibernateTest" />
-      <option name="METHOD_NAME" value="testU2" />
+      <option name="METHOD_NAME" value="testRHql3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HibernateTest.testU2" />
-        <item itemvalue="JUnit.HibernateTest.testU" />
-        <item itemvalue="JUnit.HibernateTest.testRLazy" />
-        <item itemvalue="JUnit.HibernateTest.testR" />
-        <item itemvalue="JUnit.HibernateTest.testC" />
+        <item itemvalue="JUnit.HibernateTest.testRHql3" />
+        <item itemvalue="JUnit.HibernateTest.testRHql2" />
+        <item itemvalue="JUnit.HibernateTest.testRHql1" />
+        <item itemvalue="JUnit.HibernateTest.testRHql" />
+        <item itemvalue="JUnit.HibernateTest.testD" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +158,10 @@
       <option name="presentableId" value="Default" />
       <updated>1673443043028</updated>
       <workItem from="1673443044885" duration="5636000" />
+      <workItem from="1673484720005" duration="236000" />
+      <workItem from="1673484975331" duration="1886000" />
+      <workItem from="1673487243765" duration="100000" />
+      <workItem from="1673487363885" duration="4683000" />
     </task>
     <servers />
   </component>
