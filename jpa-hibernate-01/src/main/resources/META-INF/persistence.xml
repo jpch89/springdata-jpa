@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <!--
+    需要配置 persistence-unit 节点，可以使用持久化单元声明 JPA 的不同实现。
+    name：持久化单元名称
+    transaction-type：事务管理的方式
+        JTA：分布式事务管理
+        RESOURCE_LOCAL：本地事务管理
+    -->
+    <persistence-unit name="hibernateJPA" transaction-type="RESOURCE_LOCAL">
+        <!-- JPA 的实现方式 -->
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <!-- class 用于设置需要进行 ORM 的 pojo 类 -->
+        <class>tech.tuanzi.pojo.Customer</class>
+
+        <properties>
+            <!--
+            数据库信息
+            驱动：javax.persistence.jdbc.driver
+            数据库地址：javax.persistence.jdbc.url
+            用户名：javax.persistence.jdbc.user
+            密码：javax.persistence.jdbc.password
+            -->
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.url"
+                      value="jdbc:mysql://localhost:3306/springdata_jpa?characterEncoding=UTF-8"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value=""/>
+
+            <!--
+            JPA 实现方（Hibernate）的配置信息
+            show_sql：显示 SQL，默认 false
+            hibernate.hbm2ddl.auto：建表行为
+                create：程序运行时自动创建表，如果有表则会先删除再重新创建
+                update：程序运行时自动创建并更新表
+                none：不创建表
+            -->
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL57InnoDBDialect"/>
+        </properties>
+    </persistence-unit>
+
+    <!-- OpenJPA 的持久化单元 -->
+    <persistence-unit name="openJPA" transaction-type="RESOURCE_LOCAL">
+        <!-- JPA 的实现方式 -->
+        <provider>org.apache.openjpa.persistence.PersistenceProviderImpl</provider>
+        <!-- 指定需要持久化的实体类 -->
+        <class>tech.tuanzi.pojo.Customer</class>
+        <properties>
+            <!-- 数据库信息 -->
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.url"
+                      value="jdbc:mysql://localhost:3306/springdata_jpa?characterEncoding=UTF-8"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value=""/>
+
+            <!--
+            JPA 实现方（OpenJPA）的配置信息
+            -->
+            <!-- 自动生成数据库表 -->
+            <property name="openjpa.jdbc.SynchronizeMappings" value="buildSchema(ForeignKeys=true)"/>
+        </properties>
+    </persistence-unit>
+</persistence>

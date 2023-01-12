@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="41888a58-ec49-4bae-9259-3f2362c0cb0a" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/jpa-hibernate-01/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-hibernate-01/src/test/java/tech/tuanzi/test/JpaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-hibernate-01/src/test/java/tech/tuanzi/test/HibernateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-hibernate-01/src/test/java/tech/tuanzi/test/HibernateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-hibernate-01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-hibernate-01/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -58,8 +60,8 @@
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.HibernateTest.testRHql3">
-    <configuration name="HibernateTest.testD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.JpaTest.testDSuccess">
+    <configuration name="JpaTest.testDFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-hibernate-01" />
       <extension name="coverage">
         <pattern>
@@ -68,14 +70,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tech.tuanzi.test" />
-      <option name="MAIN_CLASS_NAME" value="tech.tuanzi.test.HibernateTest" />
-      <option name="METHOD_NAME" value="testD" />
+      <option name="MAIN_CLASS_NAME" value="tech.tuanzi.test.JpaTest" />
+      <option name="METHOD_NAME" value="testDFail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HibernateTest.testRHql" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JpaTest.testDSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-hibernate-01" />
       <extension name="coverage">
         <pattern>
@@ -84,14 +86,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tech.tuanzi.test" />
-      <option name="MAIN_CLASS_NAME" value="tech.tuanzi.test.HibernateTest" />
-      <option name="METHOD_NAME" value="testRHql" />
+      <option name="MAIN_CLASS_NAME" value="tech.tuanzi.test.JpaTest" />
+      <option name="METHOD_NAME" value="testDSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HibernateTest.testRHql1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JpaTest.testU" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-hibernate-01" />
       <extension name="coverage">
         <pattern>
@@ -100,14 +102,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tech.tuanzi.test" />
-      <option name="MAIN_CLASS_NAME" value="tech.tuanzi.test.HibernateTest" />
-      <option name="METHOD_NAME" value="testRHql1" />
+      <option name="MAIN_CLASS_NAME" value="tech.tuanzi.test.JpaTest" />
+      <option name="METHOD_NAME" value="testU" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HibernateTest.testRHql2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JpaTest.testUJpql" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-hibernate-01" />
       <extension name="coverage">
         <pattern>
@@ -116,14 +118,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tech.tuanzi.test" />
-      <option name="MAIN_CLASS_NAME" value="tech.tuanzi.test.HibernateTest" />
-      <option name="METHOD_NAME" value="testRHql2" />
+      <option name="MAIN_CLASS_NAME" value="tech.tuanzi.test.JpaTest" />
+      <option name="METHOD_NAME" value="testUJpql" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HibernateTest.testRHql3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JpaTest.testUSql" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-hibernate-01" />
       <extension name="coverage">
         <pattern>
@@ -132,8 +134,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tech.tuanzi.test" />
-      <option name="MAIN_CLASS_NAME" value="tech.tuanzi.test.HibernateTest" />
-      <option name="METHOD_NAME" value="testRHql3" />
+      <option name="MAIN_CLASS_NAME" value="tech.tuanzi.test.JpaTest" />
+      <option name="METHOD_NAME" value="testUSql" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HibernateTest.testRHql3" />
-        <item itemvalue="JUnit.HibernateTest.testRHql2" />
-        <item itemvalue="JUnit.HibernateTest.testRHql1" />
-        <item itemvalue="JUnit.HibernateTest.testRHql" />
-        <item itemvalue="JUnit.HibernateTest.testD" />
+        <item itemvalue="JUnit.JpaTest.testDSuccess" />
+        <item itemvalue="JUnit.JpaTest.testDFail" />
+        <item itemvalue="JUnit.JpaTest.testUSql" />
+        <item itemvalue="JUnit.JpaTest.testUJpql" />
+        <item itemvalue="JUnit.JpaTest.testU" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +163,7 @@
       <workItem from="1673484720005" duration="236000" />
       <workItem from="1673484975331" duration="1886000" />
       <workItem from="1673487243765" duration="100000" />
-      <workItem from="1673487363885" duration="4683000" />
+      <workItem from="1673487363885" duration="16235000" />
     </task>
     <servers />
   </component>
@@ -178,5 +180,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
