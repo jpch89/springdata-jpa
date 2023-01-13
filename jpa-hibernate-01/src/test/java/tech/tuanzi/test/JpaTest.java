@@ -145,4 +145,29 @@ public class JpaTest {
         em.remove(customer);
         tx.commit();
     }
+
+    @Test
+    public void testCache1() {
+        EntityManager em = factory.createEntityManager();
+        EntityTransaction tx = em.getTransaction();
+        tx.begin();
+        Customer customer1 = em.find(Customer.class, 1L);
+        Customer customer2 = em.find(Customer.class, 1L);
+        tx.commit();
+    }
+
+    @Test
+    public void testCache2() {
+        EntityManager em1 = factory.createEntityManager();
+        EntityTransaction tx1 = em1.getTransaction();
+        tx1.begin();
+        Customer customer1 = em1.find(Customer.class, 1L);
+        tx1.commit();
+
+        EntityManager em2 = factory.createEntityManager();
+        EntityTransaction tx2 = em1.getTransaction();
+        tx2.begin();
+        Customer customer2 = em2.find(Customer.class, 1L);
+        tx2.commit();
+    }
 }
