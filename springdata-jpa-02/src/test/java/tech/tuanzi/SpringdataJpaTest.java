@@ -9,6 +9,7 @@ import tech.tuanzi.config.SpringDataJPAConfig;
 import tech.tuanzi.pojo.Customer;
 import tech.tuanzi.repositories.CustomerRepository;
 
+import java.util.Arrays;
 import java.util.Optional;
 
 // 基于 JUnit4 的 Spring 单元测试
@@ -48,5 +49,11 @@ public class SpringdataJpaTest {
         customer.setCustId(3L);
         customer.setCustName("李四");
         repository.delete(customer);
+    }
+
+    @Test
+    public void testFindAll() {
+        Iterable<Customer> allById = repository.findAllById(Arrays.asList(1L, 6L, 7L));
+        System.out.println(allById);
     }
 }
