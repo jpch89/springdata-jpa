@@ -5,13 +5,17 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import tech.tuanzi.config.SpringDataJPAConfig;
 import tech.tuanzi.pojo.Customer;
 import tech.tuanzi.repositories.CustomerRepository;
 
 import java.util.Optional;
 
 // 基于 JUnit4 的 Spring 单元测试
-@ContextConfiguration("/spring.xml")
+// XML 配置的测试
+// @ContextConfiguration("/spring.xml")
+// Java Config 配置的测试
+@ContextConfiguration(classes = SpringDataJPAConfig.class)
 @RunWith(SpringJUnit4ClassRunner.class)
 public class SpringdataJpaTest {
     @Autowired
